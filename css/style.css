@@ -1,0 +1,110 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos generales*/
+body{
+    background-color:#E6E6DD;
+    color: #2B2B2B;
+}
+
+/*Estilos de Header*/
+
+header{
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    margin: 0px 50px;
+    padding: 10px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 20px 30px 30px black;
+}
+header img{
+    width: 25%;
+}
+header nav{
+    margin-right: 30px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+/*Estilos Main*/
+
+main{
+    
+    margin: 10px 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .text{
+    text-align: center;
+}
+
+main h1{
+    margin-top: 10px;
+}
+main .textos h1 span{
+    display: block;
+}
+main .text .boton{
+    margin: 10px;
+    padding: 10px;
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    display: inline-block;
+}
+main .img{
+    display: flex;
+    justify-content: center;
+}
+
+main .img img{
+    width: 70%;
+}
+/*Estilos Section*/
+
+section{
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    padding: 10px 30px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 20px 30px 30px black;
+
+}
+section div{
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+    text-align: center;
+}
+section div h2{
+    margin: 10px;
+}
+section div img{
+    width: 30%;
+}
+
+/* estilos de footer */
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
